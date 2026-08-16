@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/b0s
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/b0s/proprietary/recovery/lib/firmware/sgpu/vangogh_lite_unified.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/sgpu/vangogh_lite_unified.bin \
     vendor/samsung/b0s/proprietary/recovery/root/vendor/firmware/b0_00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/b0_00_generic_xtalk_shape.bin \
     vendor/samsung/b0s/proprietary/recovery/root/vendor/firmware/b0_vl53l5.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/b0_vl53l5.bin \
     vendor/samsung/b0s/proprietary/recovery/root/vendor/firmware/tsp_stm/fts2ba61y_b0.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/tsp_stm/fts2ba61y_b0.bin \
@@ -33,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/b0s/proprietary/vendor/firmware/bt_vendor_rf.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_vendor_rf.xml \
     vendor/samsung/b0s/proprietary/vendor/firmware/camera_tilt_calibration_info_1_2:$(TARGET_COPY_OUT_VENDOR)/firmware/camera_tilt_calibration_info_1_2 \
     vendor/samsung/b0s/proprietary/vendor/firmware/camera_tilt_calibration_info_3_1:$(TARGET_COPY_OUT_VENDOR)/firmware/camera_tilt_calibration_info_3_1 \
+    vendor/samsung/b0s/proprietary/vendor/firmware/camera_tilt_calibration_info_5_3:$(TARGET_COPY_OUT_VENDOR)/firmware/camera_tilt_calibration_info_5_3 \
     vendor/samsung/b0s/proprietary/vendor/firmware/nvram.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt \
     vendor/samsung/b0s/proprietary/vendor/firmware/nvram.txt_ES10:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_ES10 \
     vendor/samsung/b0s/proprietary/vendor/firmware/setfile_gh1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gh1.bin \
@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/b0s/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
     vendor/samsung/b0s/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
     vendor/samsung/b0s/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100 \
-    vendor/samsung/b0s/proprietary/vendor_ramdisk/lib/firmware/sgpu/vangogh_lite_unified.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/sgpu/vangogh_lite_unified.bin \
     vendor/samsung/b0s/proprietary/vendor_ramdisk/vendor/firmware/b0_00_generic_xtalk_shape.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/b0_00_generic_xtalk_shape.bin \
     vendor/samsung/b0s/proprietary/vendor_ramdisk/vendor/firmware/b0_vl53l5.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/b0_vl53l5.bin \
     vendor/samsung/b0s/proprietary/vendor_ramdisk/vendor/firmware/tsp_stm/fts2ba61y_b0.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/tsp_stm/fts2ba61y_b0.bin \
