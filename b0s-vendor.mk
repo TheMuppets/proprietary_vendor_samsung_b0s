@@ -118,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/b0s/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/b0s/proprietary/vendor/etc/dqe/calib_data_atc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dqe/calib_data_atc.xml \
     vendor/samsung/b0s/proprietary/vendor/etc/dqe/calib_data_colormode0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dqe/calib_data_colormode0.xml \
+    vendor/samsung/b0s/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/b0s/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/b0s/proprietary/vendor/etc/mixer_usb_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_default.xml \
     vendor/samsung/b0s/proprietary/vendor/etc/mixer_usb_gray.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_usb_gray.xml \
